@@ -2,103 +2,90 @@ const group = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┯ *〈 INFO DO BOT 〉*
+┯ * 〈𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵 𝑫𝑬𝑳 𝑩𝑶𝑻〉 *
    ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Criador* : ${ownerName}
-   ┠≽ *Versão* : 0.0.5
+   ┠≽ * 𝑃𝑟𝑒𝑓𝑖𝑗𝑜 *: 「$ {prefijo}」
+   ┠≽ * 𝐶𝑟𝑒𝑎𝑑𝑜𝑟 *: $ {ownerName}
+   ┠≽ * 𝑉𝑒𝑟𝑠𝑖𝑜𝑛 *: 0.0.5
    ╿
-┯┷ *〈 INFO 〉*
+┯┷ * 〈𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵〉 *
 ╽
-┠≽ *${prefix}info* (error)
-┃ *Desc* : Mostrar detalhes do bot
-┠──────────────╼
-┠≽ *${prefix}blocklist*
-┃ *Desc* : Mostrar usuário bloqueado
-┠──────────────╼
-┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Mostrar todos os usuários de bate-papo
-┠──────────────╼
-┠≽ *${prefix}ping*
-┃ *Desc* : Mostrar velocidade do bot de conexão
-┠──────────────╼
-┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┠≽ * $ {prefix} info *
 ╿
-┷┯ *〈 GRUPO 〉*
+┷┯ *〈 𝑮𝑹𝑼𝑷𝑶 〉*
    ╽
    ┠≽ *${prefix}abrirgp*
-   ┃ *Desc* : Abrir Grupo
+   ┃ *Desc* : 𝐴𝑏𝑟𝑖𝑟 𝑔𝑟𝑢𝑝𝑜
    ┠──────────────╼
    ┠≽ *${prefix}fechargp*
-   ┃ *Desc* : Fechar Grupo
+   ┃ *Desc* : 𝐶𝑒𝑟𝑟𝑎𝑟 𝑔𝑟𝑢𝑝𝑜
    ┠──────────────╼
    ┠≽ *${prefix}promover* <@tag>
-   ┃ *Desc* : Promova pessoas para serem grupo de administradores
+   ┃ *Desc* : 𝐷𝑎𝑟 𝑎𝑑𝑚𝑖𝑛
    ┠──────────────╼
    ┠≽ *${prefix}rebaixar* <@tag>
-   ┃ *Desc* : Rebaixar pessoas para serem membros Comum
+   ┃ *Desc* : 𝑄𝑢𝑖𝑡𝑎𝑟 𝑎𝑑𝑚𝑖𝑛
    ┠──────────────╼
    ┠≽ *${prefix}marcar*
-   ┃ *Desc* : Mencione todos os membros
+   ┃ *Desc* : 𝑀𝑒𝑛𝑐𝑖𝑜𝑛𝑎𝑟 𝑎 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑚𝑖𝑒𝑚𝑏𝑟𝑜𝑠
    ┠──────────────╼
    ┠≽ *${prefix}marcar2*
-   ┃ *Desc* : Mencione todos os membros
+   ┃ *Desc* : 𝑀𝑒𝑛𝑐𝑖𝑜𝑛𝑎𝑟 𝑎 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑚𝑖𝑒𝑚𝑏𝑟𝑜𝑠
    ┠──────────────╼
    ┠≽ *${prefix}marcar3*
-   ┃ *Desc* : Mencione todos os membros
+   ┃ *Desc* : 𝑀𝑒𝑛𝑐𝑖𝑜𝑛𝑎𝑟 𝑎 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑚𝑖𝑒𝑚𝑏𝑟𝑜𝑠
    ┠──────────────╼
    ┠≽ *${prefix}marcar4*
-   ┃ *Desc* : Mencione todos os membros
+   ┃ *Desc* : 𝑀𝑒𝑛𝑐𝑖𝑜𝑛𝑎𝑟 𝑎 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑚𝑖𝑒𝑚𝑏𝑟𝑜𝑠
    ┠──────────────╼
    ┠≽ *${prefix}marcar5*
-   ┃ *Desc* : Mencione todos os membros
+   ┃ *Desc* : 𝑀𝑒𝑛𝑐𝑖𝑜𝑛𝑎𝑟 𝑎 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑚𝑖𝑒𝑚𝑏𝑟𝑜𝑠
    ┠──────────────╼
    ┠≽ *${prefix}add* <12542123926>
-   ┃ *Desc* : Adicionar Membros
+   ┃ *Desc* : 𝐴𝑛̃𝑎𝑑𝑖𝑟 𝑚𝑖𝑒𝑚𝑏𝑟𝑜
    ┠──────────────╼
    ┠≽ *${prefix}banir* <@tag>
-   ┃ *Desc* : Banir Membro Do Grupo
+   ┃ *Desc* : 𝐸𝑥𝑝𝑢𝑙𝑠𝑎𝑟 𝑚𝑖𝑒𝑚𝑏𝑟𝑜
    ┠──────────────╼
    ┠≽ *${prefix}adminlist*
-   ┃ *Desc* : Mostrar Grupo de Lista de Adm
+   ┃ *Desc* : 𝑉𝑒𝑟 𝑙𝑖𝑠𝑡𝑎 𝑑𝑒 𝑎𝑑𝑚𝑖𝑛𝑠
    ┠──────────────╼
    ┠≽ *${prefix}linkgc*
-   ┃ *Desc* : Mostrar link do grupo
+   ┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑙𝑖𝑛𝑘 𝑑𝑒𝑙 𝑔𝑟𝑢𝑝𝑜
    ┠──────────────╼
    ┠≽ *${prefix}leave*
-   ┃ *Desc* : Diga ao bot para sair do grupo
+   ┃ *Desc* : 𝐷𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎𝑟 𝑒𝑙 𝑏𝑜𝑡 𝑑𝑒 𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜
    ┠──────────────╼
    ┠≽ *${prefix}bemvindo* <1/0>
-   ┃ *Desc* : Ativando / desativando o recurso de boas-vindas
+   ┃ *Desc* : 𝐴𝑐𝑡𝑖𝑣𝑎𝑟 𝑏𝑖𝑒𝑛𝑣𝑒𝑛𝑖𝑑𝑎
    ┠──────────────╼
    ┠≽ *${prefix}nsfw* <1/0>
-   ┃ *Desc* : Ativando / desativando o recurso NSFW
+   ┃ *Desc* : 𝐴𝑐𝑡𝑢𝑣𝑎𝑟 𝑛𝑠𝑓𝑤
    ┠──────────────╼
    ┠≽ *${prefix}delete*
-   ┃ *Desc* : Excluir mensagem do bot
+   ┃ *Desc* : 𝐵𝑜𝑟𝑟𝑎𝑟 𝑚𝑒𝑛𝑠𝑎𝑗𝑒 𝑑𝑒𝑙 𝑏𝑜𝑡
    ┠──────────────╼
    ┠≽ *${prefix}simih* <1/0>
-   ┃ *Desc* : Ativando / desativando o recurso Simih
+   ┃ *Desc* : 𝐷𝑎𝑟𝑙𝑒 𝑣𝑖𝑑𝑎 𝑎𝑙 𝑏𝑜𝑡:𝑣
    ┠──────────────╼
    ┠≽ *${prefix}tagme*
-   ┃ *Desc* : Mencionar você
+   ┃ *Desc* : 𝑀𝑒𝑛𝑐𝑖𝑜𝑛𝑎𝑟𝑡𝑒
    ┠──────────────╼
    ┠≽ *${prefix}donogrupo*
-   ┃ *Desc* : Mostra quem é o proprietário do grupo
+   ┃ *Desc* : 𝑉𝑒𝑟 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜 𝑑𝑒𝑙 𝑔𝑟𝑢𝑝𝑜
    ┠──────────────╼
    ┠≽ *${prefix}antilinkgroup* <1/0>
-   ┃ *Desc* : Ativando / Desativando o Recurso Anti-Link
+   ┃ *Desc* : 𝐴𝑛𝑡𝑖𝑙𝑖𝑛𝑘
    ┠──────────────╼
    ┠≽ *${prefix}antiracismo* <on/off>
-   ┃ *Desc* : Ativando / Desativando o Recurso Anti-Racismo
+   ┃ *Desc* : 𝐴𝑛𝑡𝑖 𝑅𝑎𝑐𝑖𝑠𝑚𝑜
    ┠──────────────╼
-   ┠≽ *${prefix}antipalavrao* <ativar/desativar>
-   ┃ *Desc* : Ativando / Desativando o Recurso Anti-Link
+   ┠≽ *${prefix}antipalavrao* <activar/desactivar>
+   ┃ *Desc* : 𝐴𝑛𝑡𝑖 𝑙𝑖𝑛𝑘-𝑃𝑎𝑙𝑎𝑏𝑟𝑎
    ┠──────────────╼
    ┠≽ *${prefix}listapalavral*
-   ┃ *Desc* : Mostrar uma lista de palavrões
+   ┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑙𝑖𝑠𝑡𝑎 𝑑𝑒 𝑝𝑎𝑙𝑎𝑏𝑟𝑎𝑠
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *𝐶𝑟𝑒𝑎𝑑𝑜𝑟 © ${botName}`
 }
 exports.group = group

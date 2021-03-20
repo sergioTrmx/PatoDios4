@@ -2,48 +2,21 @@ const xp = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 0.0.5
-   ╿
-┯ *〈 INFO DO BOT 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Criador* : ${ownerName}
-   ┠≽ *Versão* : 0.0.5
-   ╿
-┯┷ *〈 INFO 〉*
-╽
-┠≽ *${prefix}info* (error)
-┃ *Desc* : Mostrar detalhes do bot
-┠──────────────╼
-┠≽ *${prefix}blocklist*
-┃ *Desc* : Mostrar usuário bloqueado
-┠──────────────╼
-┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Mostrar todos os usuários de bate-papo
-┠──────────────╼
-┠≽ *${prefix}ping*
-┃ *Desc* : Mostrar velocidade do bot de conexão
-┠──────────────╼
-┠≽ *${prefix}bugreport* <texto>
-┃ *Desc* : Reportar bug ao proprietário do bot
+do anime e cena curta
 ╿
 ┷┯ *〈 LEVEL 〉*
    ╽
    ┠≽ *${prefix}nivel*
-   ┃ *Desc* : Verifique o seu nível
+   ┃ *Desc* : 𝐶ℎ𝑒𝑐𝑎 𝑡𝑢 𝑛𝑖𝑣𝑒𝑙
    ┠──────────────╼
    ┠≽ *${prefix}leveling* <1/0>
-   ┃ *Desc* : Ativando / Desativando Recursos de Nivel
+   ┃ *Desc* : 𝐴𝑐𝑡𝑖𝑣𝑎𝑟 𝑛𝑖𝑣𝑒𝑙
    ┠──────────────╼
    ┠≽ *${prefix}mining*
-   ┃ *Desc* : Mining XP
+   ┃ *Desc* : 𝑀𝑖𝑛𝑒𝑟𝑖𝑎 𝑋𝑃
    ┠──────────────╼
    ┠≽ *${prefix}evento* <1/0>
-   ┃ *Desc* : Ativando / Desativando Recursos de Eventos
+   ┃ *Desc* : 𝐴𝑐𝑡𝑖𝑣𝑎𝑟 𝑒𝑣𝑒𝑛𝑡𝑜
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}
 --------------------------------

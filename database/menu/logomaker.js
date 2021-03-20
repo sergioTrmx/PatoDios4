@@ -2,58 +2,58 @@ const logomaker = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┯ *〈 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵 𝑫𝑬𝑳 𝑩𝑶𝑻 〉*
    ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 0.0.5
+   ┠≽ *𝑃𝑟𝑒𝑓𝑖𝑗𝑜* : 「  ${prefix}  」
+   ┠≽ *𝐶𝑟𝑒𝑎𝑑𝑜𝑟* : ${ownerName}
+   ┠≽ *𝑉𝑒𝑟𝑠𝑖𝑜𝑛* : 0.0.5
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑑𝑒𝑡𝑎𝑙𝑙𝑒𝑠 𝑑𝑒𝑙 𝑏𝑜𝑡
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑢𝑠𝑢𝑎𝑟𝑖𝑜𝑠 𝑏𝑙𝑜𝑞𝑢𝑒𝑎𝑑𝑜𝑠
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑢𝑠𝑢𝑎𝑟𝑖𝑜𝑠 𝑑𝑒𝑙 𝑐ℎ𝑎𝑡
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑣𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑑𝑒𝑙 𝑏𝑜𝑡
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : 𝑅𝑒𝑝𝑜𝑟𝑡𝑎𝑟 𝑏𝑢𝑔 𝑜 𝑒𝑟𝑟𝑜𝑟
 ╿
-┷┯ *〈 LOGO MAKER 〉*
+┷┯ *〈 𝑳𝑶𝑮𝑶 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 〉*
    ╽
    ┠≽ *${prefix}ninjalogo* <text|text>
-   ┃ *Desc* : Make Ninja Logo
+   ┃ *Desc* : Hacer Ninja Logo
    ┠──────────────╼
    ┠≽ *${prefix}logowolf* <text|text>
-   ┃ *Desc* : Make Wolf Logo
+   ┃ *Desc* : Hacer Wolf Logo
    ┠──────────────╼
    ┠≽ *${prefix}logowolf2* <text|text>
-   ┃ *Desc* : Make Wolf Logo2
+   ┃ *Desc* : Hacer Wolf Logo2
    ┠──────────────╼
    ┠≽ *${prefix}phlogo* <text|text>
-   ┃ *Desc* : Make PornHub Logo
+   ┃ *Desc* : Hacer PornHub Logo
    ┠──────────────╼
    ┠≽ *${prefix}neonlogo* <text>
-   ┃ *Desc* : Make Neon Logo
+   ┃ *Desc* : Hacer Neon Logo
    ┠──────────────╼
    ┠≽ *${prefix}neonlogo2* <text>
-   ┃ *Desc* : Make Neon Logo2
+   ┃ *Desc* : Hacer Neon Logo2
    ┠──────────────╼
    ┠≽ *${prefix}lionlogo* <text|text>
    ┃ *Desc* : Make Lion Logo
    ┠──────────────╼
    ┠≽ *${prefix}jokerlogo* <text>
-   ┃ *Desc* : Make Joker Logo
+   ┃ *Desc* : Hacer Joker Logo
    ┠──────────────╼
    ┠≽ *${prefix}pubglogo* <text|text>
-   ┃ *Desc* : Make PUBG Logo
+   ┃ *Desc* : Hacer PUBG Logo
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *𝑪𝒓𝒆𝒂𝒅𝒐𝒓 © ${botName}`
 }
 exports.logomaker = logomaker

@@ -2,46 +2,43 @@ const limit = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┯ *〈 INFO DO BOT 〉*
+┯ *〈 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵 𝑫𝑬𝑳 𝑩𝑶𝑻 〉*
    ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Criador* : ${ownerName}
-   ┠≽ *Versão* : 0.0.5
+   ┠≽ *𝑃𝑟𝑒𝑓𝑖𝑗𝑜* : 「  ${prefix}  」
+   ┠≽ *𝐶𝑟𝑒𝑎𝑑𝑜𝑟* : ${ownerName}
+   ┠≽ *𝑉𝑒𝑟𝑠𝑖𝑜𝑛* : 0.0.5
    ╿
-┯┷ *〈 INFO 〉*
+┯┷ *〈 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Mostrar detalhes do bot
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑑𝑒𝑡𝑎𝑙𝑙𝑒𝑠 𝑑𝑒𝑙 𝑏𝑜𝑡
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Mostrar usuário bloqueado
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑢𝑠𝑢𝑎𝑟𝑖𝑜𝑠 𝑏𝑙𝑜𝑞𝑢𝑒𝑎𝑑𝑜𝑠
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Mostrar todos os usuários de bate-papo
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑢𝑠𝑢𝑎𝑟𝑖𝑜𝑠 𝑑𝑒𝑙 𝑐ℎ𝑎𝑡
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Mostrar velocidade do bot de conexão
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑣𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑑𝑒𝑙 𝑏𝑜𝑡
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
-┠──────────────╼
-┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : 𝑅𝑒𝑝𝑜𝑟𝑡𝑎𝑟 𝑏𝑢𝑔 𝑜 𝑒𝑟𝑟𝑜𝑟
 ╿
-┷┯ *〈 LIMITE 〉*
+┷┯ *〈 𝑳𝑰𝑴𝑰𝑻𝑬 〉*
    ╽
    ┠≽ *${prefix}limite*
-   ┃ *Desc* : Verifique o seu limite
+   ┃ *Desc* : 𝐶ℎ𝑒𝑐𝑎 𝑡𝑢𝑠 𝑙𝑖𝑚𝑖𝑡𝑒𝑠
    ┠──────────────╼
    ┠≽ *${prefix}saldo*
-   ┃ Verifique o seu dinheiro
+   ┃ 𝐶ℎ𝑒𝑐𝑎 𝑡𝑢 𝑑𝑖𝑛𝑒𝑟𝑜
    ┠──────────────╼
    ┠≽ *${prefix}comprarl* <contar>
-   ┃ *Desc* : Comprar Limite
+   ┃ *Desc* : 𝐶𝑜𝑚𝑝𝑟𝑎𝑟 𝑙𝑖𝑚𝑖𝑡𝑒
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}
+   ╰╼≽ *𝐶𝑟𝑒𝑎𝑑𝑜𝑟 © ${botName}
 --------------------------------
-Note: Você pode comprar limites recolhendo dinheiro primeiro. Verifique seu dinheiro digitando comandos *${prefix}saldo* , 1 preço limite = 1000 dinheiro.
-Note2: Você pode coletar dinheiro conversando com amigos do grupo ou subindo de nível.`
+Nota: Puede comprar límites recolectando dinero primero. Verifique su dinero escribiendo comandos * $ {prefix} balance *, 1 precio límite = 1000 dinero.
+Nota 2: puede recolectar dinero charlando con amigos en el grupo o subiendo de nivel.`
 }
 exports.limit = limit

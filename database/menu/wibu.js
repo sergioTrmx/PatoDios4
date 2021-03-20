@@ -2,85 +2,85 @@ const wibu = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 INFO DO BOT 〉*
+┯ *〈 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵 𝑫𝑬𝑳 𝑩𝑶𝑻 〉*
    ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Criador* : ${ownerName}
-   ┠≽ *Versão* : 0.0.5
+   ┠≽ *𝑃𝑟𝑒𝑓𝑖𝑗𝑜* : 「  ${prefix}  」
+   ┠≽ *𝐶𝑟𝑒𝑎𝑑𝑜𝑟* : ${ownerName}
+   ┠≽ *𝑉𝑒𝑟𝑠𝑖𝑜𝑛* : 0.0.5
    ╿
-┯┷ *〈 INFO 〉*
+┯┷ *〈 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪𝑰𝑶𝑵 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Mostrar detalhes do bot
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑑𝑒𝑡𝑎𝑙𝑙𝑒𝑠 𝑑𝑒𝑙 𝑏𝑜𝑡
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Mostrar usuário bloqueado
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑢𝑠𝑢𝑎𝑟𝑖𝑜𝑠 𝑏𝑙𝑜𝑞𝑢𝑒𝑎𝑑𝑜𝑠
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Mostrar todos os usuários de bate-papo
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑢𝑠𝑢𝑎𝑟𝑖𝑜𝑠 𝑑𝑒𝑙 𝑐ℎ𝑎𝑡
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Mostrar velocidade do bot de conexão
+┃ *Desc* : 𝑀𝑜𝑠𝑡𝑟𝑎𝑟 𝑣𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑑𝑒𝑙 𝑏𝑜𝑡
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : 𝑅𝑒𝑝𝑜𝑟𝑡𝑎𝑟 𝑏𝑢𝑔 𝑜 𝑒𝑟𝑟𝑜𝑟
 ╿
-┷┯ *〈 ANIME & ANIMAL 〉*
+┷┯ *〈 𝑨𝑵𝑰𝑴𝑬 〉*
    ╽
    ┠≽ *${prefix}itori*
    ┃ *Desc* : Enviar Foto De Itori
    ┠──────────────╼
    ┠≽ *${prefix}shota*
-   ┃ *Desc* : enviar Foto De Shota
+   ┃ *Desc* : Enviar Foto De Shota
    ┠──────────────╼
    ┠≽ *${prefix}miku*
    ┃ *Desc* : Enviar foto de miku
    ┠──────────────╼
    ┠≽ *${prefix}pokemon*
-   ┃ *Desc* : Imagem aleatória de Pokémon
+   ┃ *Desc* : Image aleatória de Pokémon
    ┠──────────────╼
    ┠≽ *${prefix}naruto*
-   ┃ *Desc* : Imagem Aleatória de Naruto
+   ┃ *Desc* : Image Aleatória de Naruto
    ┠──────────────╼
    ┠≽ *${prefix}minato*
-   ┃ *Desc* : Imagem Aleatória de Minato
+   ┃ *Desc* : Image Aleatória de Minato
    ┠──────────────╼
    ┠≽ *${prefix}dog*
-   ┃ *Desc* : Imagem Aleatória de Cachorro
+   ┃ *Desc* : Image Aleatória de Cachorro
    ┠──────────────╼
    ┠≽ *${prefix}rize*
-   ┃ *Desc* : Imagem Aleatória de rize
+   ┃ *Desc* : Image Aleatória de rize
    ┠──────────────╼
    ┠≽ *${prefix}hinata*
-   ┃ *Desc* : Imagem Aleatória de Hinata
+   ┃ *Desc* : Image Aleatória de Hinata
    ┠──────────────╼
    ┠≽ *${prefix}loli*
-   ┃ *Desc* : Imagem Aleatória de Loli
+   ┃ *Desc* : Image Aleatória de Loli
    ┠──────────────╼
    ┠≽ *${prefix}sakura*
-   ┃ *Desc* : Imagem aleatória de Sakura
+   ┃ *Desc* : Image aleatória de Sakura
    ┠──────────────╼
    ┠≽ *${prefix}boruto*
-   ┃ *Desc* : Imagem aleatória de Boruto
+   ┃ *Desc* : Image aleatória de Boruto
    ┠──────────────╼
    ┠≽ *${prefix}waifu*
-   ┃ *Desc* : Imagem Aleatória De Waifu
+   ┃ *Desc* : Image Aleatória De Waifu
    ┠──────────────╼
    ┠≽ *${prefix}goku*
-   ┃ *Desc* : Imagem Aleatória De Goku
+   ┃ *Desc* : Image Aleatória De Goku
    ┠──────────────╼
    ┠≽ *${prefix}husbu*
-   ┃ *Desc* : Imagem Aleatória De Husbu
+   ┃ *Desc* : Image Aleatória De Husbu
    ┠──────────────╼
    ┠≽ *${prefix}akira*
-   ┃ *Desc* : Imagem Aleatória De akira
+   ┃ *Desc* : Image Aleatória De akira
    ┠──────────────╼
    ┠≽ *${prefix}wait*
-   ┃ *Desc* : Enviar nome do anime e cena curta
+   ┃ *Desc* : Enviar nombre del anime y la escena corta
    ┠──────────────╼
    ┠≽ *${prefix}nekonime*
    ┃ *Desc* : Imagen Aleatória De Nekoanime
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *𝐶𝑟𝑒𝑎𝑑𝑜𝑟 © ${botName}`
 }
 exports.wibu = wibu
