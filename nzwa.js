@@ -355,7 +355,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Já Foi Tarde, Espero Que Não Volte Mais @${num.split('@')[0]}😴`
+				teks = `Já Era tarde, espero que no vuelvas @${num.split('@')[0]}😴`
 				let buff = await getBuffer(ppimg)
 				nzwa.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -399,21 +399,21 @@ async function starts() {
                         const q = args.join(' ')
                         
                         mess = {
-                                wait: 'Em processo, Aguarde',
+                                wait: 'En proceso, Aguarda',
                                 succsess: '✔️ Sucesso ✔️',
                                 levelon: '❬ ✔ ❭ *leveling esteve ativo*',
                                 levelnoton: `❬ X ❭  *desativar leveling*`,
                                 levelnol: '*NÍVEL DE IRMÃO AINDA* 0 °-°',
                                 error: {
-                                	    stick: '[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
-                                        Iv: '❌ Link inválido ❌',
+                                	    stick: '[❗] Fall�, se produjo un error al convertir la imagen en una pegatina ❌',
+                                        Iv: '❌ Link invalido ❌',
                                 },
                         	only: {
-                        	        group: '[❗] Este comando só pode ser usado em grupos! ❌',
+                        	        group: '[❗] Este comando solo se puede usar en grupos! ❌',
                                         ownerG: `[❗] Este comando só pode ser usado pelo Dono Do Grupo! ❌`,
-                        	        admin: `[❗] KKKKKKKKK, ESSA É BOA MEMBRO COMUM TENTANDO USAR COMANDO DE ADMIN! ❌`,
-                                        Badmin: `[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌`,
-                                        daftarB: `──「 AINDA NÃO REGISTRADO 」──\nOlá!\nVocê ainda não se registrou, vamos registrar primeiro... \n\nComando : ${prefix}registrar nome|número\nExemplo : ${prefix}registrar Tiago|18`,
+                        	        admin: `[❗] JAJAJAJAJA, ESTAS INTENTANDOÉ UTILIZAR EL COMANDO DE ADMIN! ❌`,
+                                        Badmin: `[❗] Este comando solo se puede usar cuando el bot se convierte en administrador! ❌`,
+                                        daftarB: `──「 NO ESTAS REGISTRADO 」──\nOlá!\nVocê a�n no te has registrado, registremos primero ... \n\nComando : ${prefix}registrar nombre|número\nExemplo : ${prefix}registrar Felixcrack|18`,
                                 }
                         }
                 	const apakah = ['Ya','Tidak']
@@ -437,7 +437,7 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '553398091185@s.whatsapp.net'
+                        const NomerOwner = '12603763944@s.whatsapp.net'
                         const botLangs = languages
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
@@ -524,7 +524,7 @@ async function starts() {
                                         addLevelingXp(sender, amountXp)
                                         if (requiredXp <= getLevelingXp(sender)) {
                                         addLevelingLevel(sender, 1)
-                                        await reply(`*「 SUBIU DE NÍVEL 」*\n\n❑ *Nome*: ${sender}\n❑ *XP*: ${getLevelingXp(sender)}\n❑ *Nível*: ${getLevel} -> ${getLevelingLevel(sender)}\n\nParabéns!! 🥳🎉`)
+                                        await reply(`*「 SUBIO DE NIVEL 」*\n\n❑ *Nombre*: ${sender}\n❑ *XP*: ${getLevelingXp(sender)}\n❑ *Nivel*: ${getLevel} -> ${getLevelingLevel(sender)}\n\nParabéns!! 🥳🎉`)
                                 }
                         } catch (err) {
                                 console.error(err)
@@ -619,7 +619,7 @@ async function starts() {
                 if (messagesC.includes("://chat.whatsapp.com/")){
 		        if (!isGroup) return
 		        if (!isAntiLink) return
-		        if (isGroupAdmins) return reply('porque você é um administrador de grupo, o bot não irão chutá-lo')
+		        if (isGroupAdmins) return reply('porque eres un administrador de grupo, el bot no patear�-lo')
 		        nzwa.updatePresence(from, Presence.composing)
 		        if (messagesC.includes("#izinadmin")) return reply("#izinadmin recebido")
 		        var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -652,7 +652,7 @@ async function starts() {
 	            if (messagesC.includes("google.")){
 		        if (!isGroup) return
 		        if (!isAntiLink) return
-		        if (isGroupAdmins) return reply('porque você é um administrador de grupo, o bot não irão chutá-lo')
+		        if (isGroupAdmins) return reply('porque eres un administrador de grupo, el bot no patear�-lo')
 		        nzwa.updatePresence(from, Presence.composing)
 		        if (messagesC.includes("#izinadmin")) return reply("#izinadmin recebido")
 		        var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -685,7 +685,7 @@ async function starts() {
 	            if (messagesC.includes("https://")){
 		        if (!isGroup) return
 		        if (!isAntiLink) return
-		        if (isGroupAdmins) return reply('porque você é um administrador de grupo, os bots não irão chutá-lo')
+		        if (isGroupAdmins) return reply('porque eres un administrador de grupo, los bots no patear�n-lo')
 		        nzwa.updatePresence(from, Presence.composing)
 		        if (messagesC.includes("#izinadmin")) return reply("#izinadmin recebido")
 		        var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -718,7 +718,7 @@ async function starts() {
 	            if (messagesC.includes("www.")){
 		        if (!isGroup) return
 		        if (!isAntiLink) return
-		        if (isGroupAdmins) return reply('porque você é um administrador de grupo, os bots não irão chutá-lo')
+		        if (isGroupAdmins) return reply('porque eres un administrador de grupo, los bots no patear�n�-lo')
 		        nzwa.updatePresence(from, Presence.composing)
 		        if (messagesC.includes("#izinadmin")) return reply("#izinadmin recebido")
 		        var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -748,7 +748,7 @@ async function starts() {
 		        }, 0)
 	        }
 	
-	          if (messagesC.includes("preto")){
+	          if (messagesC.includes("vete a la vrg")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('cara, nao fale essas coisas, é errado, mas vc e admin n irei te banir')
@@ -781,7 +781,7 @@ async function starts() {
 		}, 0)
 	}
 	
-	          if (messagesC.includes("macaco")){
+	          if (messagesC.includes("hijo de puta")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('cara, nao fale essas coisas, é errado, mas vc e admin n irei te banir')
@@ -814,7 +814,7 @@ async function starts() {
 		}, 0)
 	}
 	
-	          if (messagesC.includes("Macaco")){
+	          if (messagesC.includes("puto")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('cara, nao fale essas coisas, é errado, mas vc e admin n irei te banir')
@@ -880,7 +880,7 @@ async function starts() {
 		}, 0)
 	}
 	
-	          if (messagesC.includes("puta")){
+	          if (messagesC.includes("pito")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('cara, nao fale essas coisas, é errado, mas vc e admin n irei te banir')
@@ -913,7 +913,7 @@ async function starts() {
 		}, 0)
 	}
 	
-	          if (messagesC.includes("vagabunda")){
+	          if (messagesC.includes("gay")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('cara, nao fale essas coisas, é errado, mas vc e admin n irei te banir')
