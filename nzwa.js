@@ -3039,7 +3039,7 @@ async function starts() {
 				case 'simih':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('escriba 1 para activar la función)
+					if (args.length < 1) return reply('escriba 1 para activar la función')
 					if (Number(args[0]) === 1) {
 						if (isSimi) return reply('O modo Simi estÃ¡ ativado')
 						samih.push(from)
