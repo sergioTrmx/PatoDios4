@@ -4,18 +4,18 @@ const figlet = require('figlet')
 lolcatjs.options.seed = Math.round(Math.random() * 1000);
 lolcatjs.options.colors = true;
 
-lolcatjs.fromString('[INFO] IF MY SCRIPT IS ERROR, PLEASE REPORT THAT TO ME')
+lolcatjs.fromString('[INFO] HI,I AM DUCK')
 lolcatjs.fromString('[SYSTEM] STARTING BOT...')
 console.log('------------------------------------------------')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('WHATSAPP BOT', {
+CFonts.say('PATO V4', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say('\'termux-whatsapp-bot\' By @NazwaS', {
+CFonts.say('\'Bot pato v4\' By Mr Pato', {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -44,4 +44,4 @@ function start() {
 
 start()
 console.log('------------------------------------------------')
-lolcatjs.fromString('[DEV] NAZWAS')
+lolcatjs.fromString('[REB] PATO')
