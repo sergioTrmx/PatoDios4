@@ -1,5 +1,5 @@
 exports.noregis = () => {
-        return `*TODAVÍA NO ESTÁ REGISTRADO* \n\n *Cómo registrarse ${prefix} registrar Nombre|edad* \n *Ejemplo: ${prefix} registrar Pato|99*`
+        return `*TODAVÍA NO ESTÁ REGISTRADO* \n\n *Cómo registrarse ${prefix} registrar Nombre|edad* \n *Ejemplo: ${prefix} registrar Sergio|99*`
 }
 
 exports.rediregis = () => {
