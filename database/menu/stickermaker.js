@@ -7,7 +7,7 @@ const stickermaker = (prefix, botName, ownerName) => {
    ┠≽ *Prefixo* : 「  ${prefix}  」
    ┠≽ *Criador* : ${ownerName}
    ┠≽ *Versão* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Canal* : https://www.instagram.com/p/CM-0IeqBfER/?igshid=13hed23zgua48
    ╿
 ┯┷ *〈 SOBRE 〉*
 ╽
