@@ -7,7 +7,7 @@ const xp = (prefix, botName, ownerName) => {
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
    ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Canal* : https://www.instagram.com/p/CM-0IeqBfER/?igshid=13hed23zgua48
    ╿
 ┯┷ *〈 ABOUT 〉*
 ╽
