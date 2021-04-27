@@ -338,7 +338,8 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *${prefix}event* <1/0>
    ┃ *Desc* : Enabling / Disabling Event Features
    ╿ *${ownerName}*
-   
+   By SergioTrmx
+   █▀█▀█▀█▀█▀
    
    `
 }
